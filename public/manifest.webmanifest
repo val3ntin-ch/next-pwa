@@ -3,7 +3,10 @@
   "name": "pwa with next",
   "short_name": "pwa",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#202124",
   "icons": [
     {
       "src": "/icons/ios/1024.png",
@@ -21,6 +24,12 @@
       "src": "/icons/ios/256.png",
       "type": "image/png",
       "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/ios/icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
       "purpose": "any"
     },
     {
