@@ -2,11 +2,16 @@
   "id": "pwa-next-application",
   "name": "pwa with next",
   "short_name": "pwa",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
+  "description": "pwa test app",
+  "orientation": "portrait",
   "theme_color": "#000",
   "background_color": "#202124",
+  "shortcuts": [],
+  "screenshots": [],
+  "categories": [],
   "icons": [
     {
       "src": "/icons/ios/1024.png",
