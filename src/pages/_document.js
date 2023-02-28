@@ -3,10 +3,12 @@ import { Html, Head, Main, NextScript } from "next/document";
 const Document = () => (
   <Html lang="en">
     <Head>
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)" />
+
       <link rel="manifest" href="/manifest.webmanifest" />
-      <link rel="apple-touch-icon" href="/icons/ios/icon.png" />
-      {/*meta for change theme color */}
-      <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: dark)" />
+      <link rel="apple-touch-icon" href="icons/ios/icon.png" />
       <link
         rel="apple-touch-startup-image"
         media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
