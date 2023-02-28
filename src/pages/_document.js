@@ -5,7 +5,11 @@ const Document = () => (
     <Head>
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)" />
+      <meta
+        name="theme-color"
+        content="#000"
+        media="(prefers-color-scheme: dark)"
+      />
 
       <link rel="manifest" href="/manifest.webmanifest" />
       <link rel="apple-touch-icon" href="icons/ios/icon.png" />
