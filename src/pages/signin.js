@@ -2,9 +2,10 @@ import Button from "@/components/Button";
 import CustomLink from "@/components/CustomLink";
 import Header from "@/components/Header";
 import TextInput from "@/components/TextInput";
+
 const noop = () => {};
 
-const SignIn = ({ goToSignIn = noop, goToSignUp = noop } = {}) => (
+const SignIn = () => (
   <div className="flex  min-h-full justify-center justify-items-center font-mono  bg-[#171616]">
     <div className="py-32 w-screen h-screen px-8 ">
       <Header title={"Sign in to Your Account"} />
