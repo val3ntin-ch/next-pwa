@@ -1,10 +1,10 @@
-import Button from "@/components/Button";
-import CustomLink from "@/components/CustomLink";
-import Header from "@/components/Header";
-import TextInput from "@/components/TextInput";
+import Button from "@components/Button";
+import CustomLink from "@components/CustomLink";
+import Header from "@components/Header";
+import TextInput from "@components/TextInput";
 
 const Signup = () => (
-  <div className="flex  min-h-full justify-center justify-items-center font-mono  bg-[#171616]">
+  <div data-test-id='signup-container' className="flex  min-h-full justify-center justify-items-center font-mono  bg-[#171616]">
     <div className="py-32 w-screen h-screen px-8 ">
       <Header title={"Sign up to Your Account"} />
       <div className="mt-20 ">
